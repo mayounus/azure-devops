@@ -1,16 +1,51 @@
-# azure-devops
-Repo for Azure DevOps
+# Overview
 
-Description:
-    This project builds a Github repository using scaffolding for CI/CD using Github Actions along 
-    with Makefile, requirements.txt and application code to perform lint, test and install.  
-    Finally this project will integrate with Azure Pipelines to enable CD to Azure App service. 
+<TODO: complete this with an overview of your project>
 
-Project:
-    Python-based machine learning application using the Flask web framework. 
-    Using pre-trained sklearn model, predict housing prices in Boston according to several features, 
-    such as average rooms in a home and data about highway access, teacher-to-pupil ratios etc... 
+## Project Plan
+<TODO: Project Plan
 
-CI/CD:
-    Actions: New
+* A link to a Trello board for the project
+* A link to a spreadsheet that includes the original and final project plan>
+
+## Instructions
+
+<TODO:  
+* Architectural Diagram (Shows how key parts of the system work)>
+
+<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+
+* Project running on Azure App Service
+
+* Project cloned into Azure Cloud Shell
+
+* Passing tests that are displayed after running the `make all` command from the `Makefile`
+
+* Output of a test run
+
+* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
+* Running Azure App Service from Azure Pipelines automatic deployment
+
+* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+The output should look similar to this:
+
+```bash
+udacity@Azure:~$ ./make_predict_azure_app.sh
+Port: 443
+{"prediction":[20.35373177134412]}
+```
+
+* Output of streamed log files from deployed application
+
+> 
+
+## Enhancements
+
+<TODO: A short description of how to improve the project in the future>
+
+## Demo 
+
+<TODO: Add link Screencast on YouTube>
+
 
