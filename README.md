@@ -11,3 +11,6 @@ Project:
     Using pre-trained sklearn model, predict housing prices in Boston according to several features, 
     such as average rooms in a home and data about highway access, teacher-to-pupil ratios etc... 
 
+CI/CD:
+    Actions:
+
